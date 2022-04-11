@@ -5,7 +5,7 @@ Vue.use({
     if (process.env.NODE_ENV === 'development'){
       Vue.prototype.$requestUrl = 'https://agat-hyundai.ru/ajax/api_instock.php';
     } else {
-      Vue.prototype.$requestUrl  = '/ajax/api_instock.php';
+      Vue.prototype.$requestUrl  = 'https://agat-hyundai.ru/ajax/api_instock.php';
     }
   },
 });
