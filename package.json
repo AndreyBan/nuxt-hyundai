@@ -1,0 +1,41 @@
+{
+  "name": "hyundai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.5",
+    "@nuxtjs/axios": "^5.13.6",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "nuxt-route-meta": "^2.3.4",
+    "vue": "^2.6.14",
+    "vue-inputmask": "^0.2.1",
+    "vue-range-component": "^1.0.3",
+    "vue-range-slider": "^0.6.0",
+    "vue-select": "^3.18.3",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vuejs-paginate": "^2.1.0",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^10.2.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.46.0"
+  }
+}
